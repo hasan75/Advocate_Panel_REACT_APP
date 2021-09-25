@@ -1,0 +1,11 @@
+.person {
+  background-color: gray;
+  text-align: center;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 7px;
+}
+.person img {
+  border-radius: 50%;
+  height: 120px;
+}
