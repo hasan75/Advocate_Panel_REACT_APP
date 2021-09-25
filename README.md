@@ -2,11 +2,11 @@
 
 ---
 
-##Deploy Link of the project
+## Deploy Link of the project
 
 ---
 
-#About the Project
+# About the Project
 
 - A sample react project for Programming Hero Course to fullfill the requiremnets of Assignment 8.
 
