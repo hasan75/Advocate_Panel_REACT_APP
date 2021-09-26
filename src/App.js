@@ -4,7 +4,7 @@ import HiringArea from './components/HiringArea/HiringArea';
 
 function App() {
   return (
-    <div className="">
+    <div className="app">
       <Header></Header>
       <HiringArea></HiringArea>
     </div>

@@ -1,11 +1,31 @@
 .cart {
-  background-color: gray;
-  color: white;
+  text-align: center;
+  background-color: #dddddd;
   margin-right: 10px;
   padding: 8px;
   margin-top: 6px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  padding-left: 15px;
+}
+.cart ul li {
+  font-weight: 500;
+  color: #f57c02;
+}
+.hired,
+.spent-amount {
+  color: #f57c02;
+}
+.button-regular {
+  background-color: #f57c02;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 20px;
+  padding: 8px 20px;
+  border: 1px solid gray;
   border-radius: 7px;
 }
-.spent-amount {
-  color: gold;
+.button-regular:hover {
+  background-color: #fd4431;
 }
