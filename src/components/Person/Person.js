@@ -1,8 +1,11 @@
+import { faUserPlus, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Person.css';
 
 const Person = (props) => {
     const {name, age, company, fees, email, picture} = props.person;
+    const hireIcon = <FontAwesomeIcon icon={faUserPlus}></FontAwesomeIcon>
     console.log(props.person)
     return (
         <div className="person">
@@ -13,7 +16,7 @@ const Person = (props) => {
             <h4>Consultency Fees: ${fees}</h4>
             <p>Email: {email}</p>
             <br />
-            <button>Hire Consultant</button>
+            <button>{hireIcon}  Hire Consultant</button>
         </div>
     );
 };
