@@ -4,7 +4,7 @@
 
 ## Deploy Link of the project
 
----
+## https://consultancy-react-hasan75.netlify.app/
 
 # About the Project
 
