@@ -7,13 +7,13 @@ const Person = (props) => {
     return (
         <div className="person">
             <img src={picture} alt="" />
-            <h4>{name}</h4>
+            <h3>{name}</h3>
             <p><small>from: {company}</small></p>
-            <h3>Age: {age}</h3>
-            <h3>Consultency Fees:{fees}</h3>
+            <h4>Age: {age}</h4>
+            <h4>Consultency Fees: ${fees}</h4>
             <p>Email: {email}</p>
             <br />
-            <button>Add to Cart</button>
+            <button>Hire Consultant</button>
         </div>
     );
 };
