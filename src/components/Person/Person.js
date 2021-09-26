@@ -1,4 +1,4 @@
-import { faUserPlus, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import { faUserPlus} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Person.css';
@@ -6,7 +6,6 @@ import './Person.css';
 const Person = (props) => {
     const {name, age, company, fees, email, picture} = props.person;
     const hireIcon = <FontAwesomeIcon icon={faUserPlus}></FontAwesomeIcon>
-    console.log(props.person)
     return (
         <div className="person">
             <img src={picture} alt="" />
@@ -16,7 +15,7 @@ const Person = (props) => {
             <h4>Consultency Fees: ${fees}</h4>
             <p>Email: {email}</p>
             <br />
-            <button>{hireIcon}  Hire Consultant</button>
+            <button onClick={()=> props.haldleAddToCart(props.person)}>{hireIcon}  Hire Consultant</button>
         </div>
     );
 };
